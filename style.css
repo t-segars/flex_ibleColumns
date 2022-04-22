@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    }
+
+.col{
+    background-color:orange;
+    height: 50px;
+    flex: 1;
+    margin: 10px;
+}
+
+.col-2{
+    background-color: orange;
+    height: 50px;
+    flex: 3;
+    margin: 10px;
+}
+
+.col-3{
+    background-color: orange;
+    height: 50px;
+    flex: 5;
+    margin: 10px;
+}
+div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
